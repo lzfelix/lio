@@ -18,7 +18,7 @@ logging.disable(sys.maxsize)
 
 
 def project(z: np.ndarray, lb: float, ub: float, p: int = 2) -> np.ndarray:
-    """Project a hypercomplex tensor to a real tensor in the interval [lb, ub]"""
+    """Project a hypercomplex tensor to a real tensor in the interval [lb, ub]."""
     p_norm = np.linalg.norm(z, ord=p, axis=-1)
     factor = np.power(z.shape[-1], 1 / p)
     return lb + (ub - lb) * (p_norm / factor)
