@@ -1,0 +1,10 @@
+.idea/
+.mypy_cache/
+.ipynb_checkpoints/
+__pycache__/
+
+.DS_Store
+.py[cod]
+sync.sh
+
+*.log
