@@ -46,7 +46,7 @@ def optimize_fn(fn: callable,
     opt = Opytimizer(space, pso, fun)
 
     hook_fn = hook_fn or ProgressBarHook(n_iters, 'PSO')
-    return opt.start(patience=patience, delta=delta, pre_evaluation_hook=hook_fn)
+    return opt.start(patience=patience, delta=delta, pre_evaluation_hook=hook_fn, store_best_only=True)
 
 
 def finetune_projection(fn: callable,
