@@ -10,7 +10,7 @@ import numpy as np
 from scipy.stats import wilcoxon
 
 
-def read_all_pickles(path: str):
+def read_all_pickles(path: str) -> tuple:
     """Reads all files within a given folder, expecting them to be pickles."""
     result_pickles = glob.glob(str(path) + '/*')
 
