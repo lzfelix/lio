@@ -8,3 +8,5 @@ __pycache__/
 sync.sh
 
 *.log
+*.csv
+
