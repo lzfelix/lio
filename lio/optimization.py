@@ -58,8 +58,8 @@ def finetune_projection(fn: callable,
     def optimize_p(p):
         return fn(project(z, fn_lb, fn_ub, p.ravel().item()))
 
-    space = SearchSpace(n_agents=10,
-                        n_iterations=25,
+    space = SearchSpace(n_agents=20,
+                        n_iterations=50,
                         n_variables=1,
                         lower_bound=[lb],
                         upper_bound=[ub])
