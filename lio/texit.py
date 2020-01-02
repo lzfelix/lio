@@ -59,7 +59,7 @@ def latex_line(writer_fn: callable, line: dict, first_line: bool = False) -> Non
 
 def fix_notation(all_entries: List[str]) -> List[str]:
     """Replaces e notation by power-of-ten notation"""
-    return [re.sub(r'e[\+\-](\d+)', lambda x: f' \\cdot 10^{{{int(x.group(1))}}}', line) for line in all_entries]
+    return [re.sub(r'e([+-]\d+)', lambda x: f' \\cdot 10^{{{int(x.group(1))}}}', line) for line in all_entries]
 
 
 if __name__ == '__main__':
