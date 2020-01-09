@@ -43,6 +43,10 @@ Just add a new function following the signature `def target_fn(numpy.ndarrray) -
 already implemented functions. Further, register it in the `get_function(...)` function at the bottom of
 this file, along with its lower and upper bounds. Currently all decision variables share the same limit values.
 
+After following these steps, the function can be optimized via command line through the script
+`run_experiment.py` (please refer to the "Reproducing paper results" section for more infomration
+about it).
+
 ## Citation
 
 If you use LIO (either this implementation or its overrall idea), please cite us as follows:
