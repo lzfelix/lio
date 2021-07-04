@@ -1,6 +1,7 @@
-# Generalizing and Fine-Tuning Euclidean Norm Improves Hypercomplex Meta-Heuristic Optimization
+# Enhancing Hyper-To-Real Space Projections Through Euclidean Norm Meta-Heuristic Optimization
 
-_Paper official implementation_
+_Official paper implementation for Last Iteration Optimization (LIO) hypercomplex optimization
+fine-tuning_
 
 ## Folders structure
   - `notebooks/`: Contains a single notebook briefly illustrating the idea proposed in the paper.
@@ -52,5 +53,5 @@ about it).
 If you use LIO (either this implementation or its overrall idea), please cite us as follows:
 
 ```bibtex
-?
+TBD
 ```
