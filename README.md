@@ -1,7 +1,7 @@
 # Enhancing Hyper-To-Real Space Projections Through Euclidean Norm Meta-Heuristic Optimization
 
 _Official paper implementation for Last Iteration Optimization (LIO) hypercomplex optimization
-fine-tuning_
+fine-tuning. The manuscript can be found in the [CIARP25 proceedings](https://ciarp25.org/)._
 
 ## Folders structure
   - `notebooks/`: Contains a single notebook briefly illustrating the idea proposed in the paper.
@@ -53,5 +53,14 @@ about it).
 If you use LIO (either this implementation or its overrall idea), please cite us as follows:
 
 ```bibtex
-TBD
+@inproceedings{Felix:2021,
+  author    = {L. C. F. Ribeiro and M. Roder and G. H. Rosa and L. A. Passos and J. P. Papa},
+  title     = {Enhancing Hyper-To-Real Space Projections Through Euclidean Norm Meta-Heuristic Optimization},
+  booktitle = {2021 25th Iberoamerican Congress on Pattern Recognition (CIARP)},
+  location  = {Porto, Portugal},
+  publisher = {Springer International Publishing},
+  address   = {Cham},
+  pages     = {45--54},
+  year      = {2021}
+}
 ```
