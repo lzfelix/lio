@@ -1,7 +1,7 @@
 # Enhancing Hyper-To-Real Space Projections Through Euclidean Norm Meta-Heuristic Optimization
 
 _Official paper implementation for Last Iteration Optimization (LIO) hypercomplex optimization
-fine-tuning. The manuscript can be found in the [CIARP25 proceedings](https://ciarp25.org/)._
+fine-tuning. The manuscript can be found [here](https://link.springer.com/chapter/10.1007%2F978-3-030-93420-0_11)._
 
 ## Folders structure
   - `notebooks/`: Contains a single notebook briefly illustrating the idea proposed in the paper.
@@ -53,21 +53,21 @@ about it).
 If you use LIO (either this implementation or its overrall idea), please cite us as follows:
 
 ```bibtex
-@InProceedings{Felix:2021,
-author="Ribeiro, Luiz Carlos Felix
-and Roder, Mateus
-and de Rosa, Gustavo H.
-and Passos, Leandro A.
-and Papa, Jo{\~a}o P.",
-editor="Tavares, Jo{\~a}o Manuel R. S.
-and Papa, Jo{\~a}o Paulo
-and Gonz{\'a}lez Hidalgo, Manuel",
-title="Enhancing Hyper-to-Real Space Projections Through Euclidean Norm Meta-heuristic Optimization",
-booktitle="Progress in Pattern Recognition, Image Analysis, Computer Vision, and Applications",
-year="2021",
-publisher="Springer International Publishing",
-address="Cham",
-pages="109--118",
-isbn="978-3-030-93420-0"
+@InProceedings{10.1007/978-3-030-93420-0_11,
+  author="Ribeiro, Luiz Carlos Felix
+  and Roder, Mateus
+  and de Rosa, Gustavo H.
+  and Passos, Leandro A.
+  and Papa, Jo{\~a}o P.",
+  editor="Tavares, Jo{\~a}o Manuel R. S.
+  and Papa, Jo{\~a}o Paulo
+  and Gonz{\'a}lez Hidalgo, Manuel",
+  title="Enhancing Hyper-to-Real Space Projections Through Euclidean Norm Meta-heuristic Optimization",
+  booktitle="Progress in Pattern Recognition, Image Analysis, Computer Vision, and Applications",
+  year="2021",
+  publisher="Springer International Publishing",
+  address="Cham",
+  pages="109--118",
+  isbn="978-3-030-93420-0"
 }
 ```
